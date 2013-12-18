@@ -26,7 +26,21 @@ body {
   font-size: 14px;
 }
 
+.categories-list li, .tags-list li { 
+  font-size: 12px;
+  line-height: 12px;
+}
 
+.categories-list .badge, .tags-list .badge {
+  background: white;
+  color: #666;
+  font-size: 9px;
+  border: 1px solid #eee;
+}
+
+.post-content { 
+  font-size: 16px;
+}
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;

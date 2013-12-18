@@ -7,5 +7,6 @@ http://open-transactions.github.io/rss.xml
 http://open-transactions.github.io/index.html
 http://open-transactions.github.io/atom.xml
 http://open-transactions.github.io/tags.html
+http://open-transactions.github.io/index.html
 
-http://open-transactions.github.io/lessons/2011/12/29/jekyll-introduction
+http://open-transactions.github.io/hi/2013/12/18/hello-world

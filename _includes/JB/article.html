@@ -1,0 +1,26 @@
+
+{% unless page.no_header %}
+	<div class="page-header">
+		{% if index %}
+			<h1><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a> {% if post.tagline %}<small>{{post.tagline}}</small>{% endif %}</h1>
+		{% else %}
+			<h1><a href="{{ root_url }}{{ post.url }}">{{ page.title }}</a> {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+		{% endif %}
+	</div>
+{% endunless %}
+{% if index %}
+	<div class="post-content">{{ post.excerpt }}</div>
+	<footer>
+		{% unless page.meta == false %}
+			{% if page.comments != false and post.comments != false %}
+				<a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+			{% endif %}
+		{% endunless %} | 
+		<a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+	</footer>
+{% else %}
+<div class="entry-content">{{ post.excerpt }}</div>
+{% endif %}
+	<p class="meta">
+		
+	</p>
