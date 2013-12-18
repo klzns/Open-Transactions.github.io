@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">       
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include JB/pages_list %}
+         </ul>
+        <h3 class="title"><a href="{{ HOME_PATH }}">{{ site.title }}</a> <small>{{ site.tagline }}</small></h3>
+      </div>   
+
+      <div class="content-body row">
+
+        <div class="content col-md-9">
+        {{ content }}
+        </div>
+
+        <div class="sidebar col-md-3">
+          <img src="http://i.imgur.com/0bE8hvp.png"/>
+          <p><span class="glyphicon glyphicon-bookmark"></span> The Open-Transactions project is a collaborative effort to develop a robust, commercial-grade, fully-featured, free-software toolkit implementing the OTX protocol as well as a full-strength financial cryptography library, API, CLI, and prototype server. <small><a href="http://opentransactions.org/wiki/">Learn more about »</a></small></p>
+
+          <h4>Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="http://opentransactions.org/forum/"><span class="glyphicon glyphicon-bullhorn"></span> OT Forum</a></li>
+            <li><a href="http://opentransactions.org/wiki/"><span class="glyphicon glyphicon-globe"></span> Wiki</a></li>
+            <li><a href="http://opentransactions.org/docs/"><span class="glyphicon glyphicon-book"></span> Docs</a></li>
+            <li><a href="http://github.com/Open-Transactions/Open-Transactions"><span class="glyphicon glyphicon-align-left"></span> Source Code on GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+      <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div>
+
+    {% include JB/analytics %}
+  </body>
+</html>
