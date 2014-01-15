@@ -5,21 +5,323 @@
         <description>Open-Transactions - Fellow Traveler</description>
         <link>http://open-transactions.github.io</link>
         <link>http://open-transactions.github.io</link>
-        <lastBuildDate>2013-12-19T14:34:06-02:00</lastBuildDate>
-        <pubDate>2013-12-19T14:34:06-02:00</pubDate>
+        <lastBuildDate>2014-01-15T19:36:02-02:00</lastBuildDate>
+        <pubDate>2014-01-15T19:36:02-02:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>Hello World</title>
-                <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique porta commodo. Etiam gravida felis facilisis leo dictum pharetra. Phasellus consequat, dui eget porttitor egestas, turpis ante tempus magna, quis tristique ante lectus sed erat. Maecenas condimentum pellentesque commodo. Donec erat tellus, euismod sed quam at, blandit mattis erat. Vivamus malesuada justo in turpis rutrum venenatis. Maecenas scelerisque mollis turpis ac mattis. Vivamus condimentum tortor sed nisl hendrerit congue. Nam id nisi ante.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;Nam pharetra ac lectus at fermentum. Ut aliquam ante eu blandit dignissim. Sed hendrerit dignissim purus eget congue. Maecenas blandit molestie faucibus. Suspendisse sed gravida enim. Nulla dignissim, nisi sed tempus cursus, elit est auctor nulla, eu dapibus dui metus suscipit felis. Maecenas nisi ligula, pulvinar at suscipit ut, mollis a elit. Duis sodales tellus rutrum turpis gravida imperdiet. Nunc quis consequat erat, vitae faucibus nibh. Nulla facilisi.&lt;/p&gt;
+                <title>Voting Pools: How to Stop the Plague of Bitcoin Heists, Thefts, Hacks, Scams, and Losses</title>
+                <description>&lt;p&gt;In July of 2011, the owners of popular web wallet service and payment processor MyBitcoin.com &lt;a href=&quot;http://www.reddit.com/r/Bitcoin/comments/k08a8/has_bruce_wagner_pulled_off_the_biggest_financial/&quot;&gt;absconded&lt;/a&gt; with all customer funds, almost 79 thousand bitcoins, and disappeared.&lt;/p&gt;
 
-&lt;p&gt;Vivamus vestibulum fermentum purus ut iaculis. Sed orci nulla, volutpat eu ipsum bibendum, hendrerit malesuada tellus. Aliquam faucibus augue ligula, sed ultrices erat aliquet sit amet. Ut lobortis tortor eget odio dapibus euismod. Nunc sit amet est odio. Nunc aliquam est arcu, ac blandit tortor tristique sed. Fusce ornare laoreet tellus pulvinar ultrices. Pellentesque ac est vitae arcu mattis pulvinar.&lt;/p&gt;</description>
-                <link>http://open-transactions.github.io/hi/2013/12/18/hello-world</link>
-                <guid>http://open-transactions.github.io/hi/2013/12/18/hello-world</guid>
-                <pubDate>2013-12-18T00:00:00-02:00</pubDate>
+&lt;p&gt;In March of 2012, several sites hosted with &lt;a href=&quot;http://arstechnica.com/business/2012/03/bitcoins-worth-228000-stolen-from-customers-of-hacked-webhost/&quot;&gt;Linode&lt;/a&gt; were hacked, including leveraged trading platform Bitcoinica, mining pool Bitcoin.cz, Bitcoin Faucet, and several other sites. A total of about 47 thousand bitcoins were lost.&lt;/p&gt;
+
+&lt;p&gt;Two months later, Bitcoinica was hacked &lt;a href=&quot;http://www.pcworld.com/article/255595/hackers_break_into_bitcoin_exchange_site_bitcoinica_steal_90000_in_bitcoins.html&quot;&gt;again&lt;/a&gt; and lost another 19 thousand bitcoins, causing it to shut down.&lt;/p&gt;
+
+&lt;p&gt;Two months after that, someone stole 40 thousand bitcoins from Bitcoinica’s &lt;a href=&quot;https://bitcointalk.org/index.php?topic=93074&quot;&gt;Mt Gox account&lt;/a&gt;, 30% of their remaining assets.&lt;/p&gt;
+
+&lt;p&gt;In September of 2012, exchange platform &lt;a href=&quot;http://bitcoinmagazine.com/2139/bitfloor-hacked-250000-missing/&quot;&gt;Bitfloor&lt;/a&gt; was hacked and lost about 24 thousand customer bitcoins.&lt;/p&gt;
+
+&lt;p&gt;In October 2013, &lt;a href=&quot;http://www.forbes.com/sites/andygreenberg/2013/10/25/fbi-says-its-seized-20-million-in-bitcoins-from-ross-ulbricht-alleged-owner-of-silk-road/&quot;&gt;Silk Road&lt;/a&gt; users lost 172 thousand bitcoins when they were seized by the FBI.&lt;/p&gt;
+
+&lt;p&gt;The months of November and December 2013 have been &lt;a href=&quot;http://www.dailymail.co.uk/sciencetech/article-2516024/Bitcoin-thefts-soar-online-criminals-target-easy-payday-currencys-value-quadruples-space-weeks.html&quot;&gt;particularly bad&lt;/a&gt; in terms of Bitcoin companies losing funds to theft, with Inputs.io, BIPS, Bidextreme all reporting losses.&lt;/p&gt;
+
+&lt;p&gt;In virtually every case of companies losing customer funds, it’s difficult or impossible to disprove that an inside job was responsible.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;why_do_users_deposit_their_bitcoin_with_third_parties&quot;&gt;Why Do Users Deposit Their Bitcoin With Third Parties?&lt;/h2&gt;
+
+&lt;p&gt;After every event where customers of Bitcoin services lose bitcoins, experienced members of the community speak out and remind them that Bitcoin is designed for direct P2P interactions with no intermediary, and that handing bitcoins over to a third party is neither necessary or a good idea.&lt;/p&gt;
+
+&lt;p&gt;No amount of education and warnings, however, appears to be capable of convincing a majority of users to avoid doing exactly that no - matter how catastrophic the cost of doing so becomes.&lt;/p&gt;
+
+&lt;p&gt;There are several plausible reasons for this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Users are getting involved with Bitcoin before they fully understand it, and assume that it works like the legacy financial system.&lt;/li&gt;
+
+&lt;li&gt;Users start out with a small bitcoin balance which they could afford to lose, become complacent, and then never change their habits as their holdings increase in value.&lt;/li&gt;
+
+&lt;li&gt;The software tools needed to secure Bitcoins properly are still developing and remain too hard for many people to use.&lt;/li&gt;
+
+&lt;li&gt;Certain services, such as exchanging between Bitcoin and legacy currencies, are difficult or impossible to implement without involving a centralized entity who holds all the funds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While work is progressing on all fronts to improve the situation, it’s unlikely that the paradigm will change any time soon. People will continue handing over their bitcoins to third parties, and will continue to lose funds to hacks and insider thefts, unless something changes to drastically improve the security of such arrangements.&lt;/p&gt;
+
+&lt;h2 id=&quot;how_do_existing_services_work&quot;&gt;How Do Existing Services Work?&lt;/h2&gt;
+
+&lt;p&gt;When you deposit bitcoin with a trading platform, or an online wallet, as far as the Bitcoin protocol is concerned, those bitcoins are no longer yours. Companies like Mt Gox, Bitstamp, BIPS, and Coinbase all have exclusive control over all customer bitcoins which have been deposited with them, and are fully capable of spending them as they wish. This may include returning the bitcoins you’ve deposited as promised, and may also include losing or stealing them, intentionally or under duress. The Bitcoin protocol can not protect you once you’ve handed your bitcoins over to someone else.&lt;/p&gt;
+
+&lt;p&gt;These services work by maintaining their own database that keeps track of how many bitcoins they owe to each customer. These databases can be as simple as a single MySQL table.&lt;/p&gt;
+
+&lt;p&gt;In all cases, whenever you deposit Bitcoin with a website, you’re relying on their programming abilities to accurately track how many bitcoins they owe you, as well their ability not to be hacked, blackmailed, or extorted. Each site is unique in terms of how much programming effort they have expended towards tracking and protect your balance.&lt;/p&gt;
+
+&lt;p&gt;Is there a better way to track and protect customer balances than bespoke systems, systems which are sometimes developed as an afterthought since they don’t represent the services’ primary functionality?&lt;/p&gt;
+
+&lt;h2 id=&quot;opentransactions&quot;&gt;Open-Transactions&lt;/h2&gt;
+
+&lt;p&gt;Open-Transactions (OT) is a financial cryptography library invented by Chris Odom, the co-founder of &lt;a href=&quot;http://monetas.net/&quot;&gt;Monetas&lt;/a&gt;. It is designed to allow for secure formation and transaction of digital assets, smart contracts, and virtual corporations via cryptographically-signed receipts.&lt;/p&gt;
+
+&lt;p&gt;OT partially overlaps Bitcoin in terms of features, but has a different security model. Where Bitcoin is decentralized, OT uses federated servers. Bitcoin’s security uses proof of work to prevent cheating while in OT it’s possible for transaction servers to cheat, however the type of cheating they can engage in is limited to inflating the issuance of assets, since cryptographic signing means receipts can not be forged. This inflation risk is mitigated by a separation of powers and real-time auditing.&lt;/p&gt;
+
+&lt;p&gt;Asset issuers are independent of the transaction servers and the asset holders. If an audit discovers a transaction server attempting to spend inflated assets, the issuer can rescind that server’s authorization to process their receipts, and can move to a new transaction server.&lt;/p&gt;
+
+&lt;p&gt;The Open-Transactions model will never provide the same security guarantees as the Bitcoin blockchain, however the security it does provide is substantially greater than any third party Bitcoin service can deliver to their customers, and it comes with compensating benefits in the form of a number of additional features not available in Bitcoin alone.&lt;/p&gt;
+
+&lt;p&gt;A transaction server in OT does what all deposit-accepting Bitcoin websites do already, in a more secure and transparent manner. Instead of merely storing a customer’s balance in a MySQL table, OT provides the customer with proof of ownership in the form of a digitally signed receipt which is maintained current as assets are transferred or included in smart contracts.&lt;/p&gt;
+
+&lt;p&gt;Thus we can say, with apologies to &lt;a href=&quot;https://en.wikipedia.org/wiki/Greenspun%27s_Tenth_Rule&quot;&gt;Philip Greenspun&lt;/a&gt;, “Any sufficiently complicated Bitcoin website contains an ad hoc, informally-specified, bug-prone, slow implementation of half of Open-Transactions.”&lt;/p&gt;
+
+&lt;h2 id=&quot;voting_pools&quot;&gt;Voting Pools&lt;/h2&gt;
+
+&lt;p&gt;The original intended use case of OT was to allow individuals to create and trade decentralized gold-backed virtual currencies, but recent development has focused on both using Bitcoin to add additional capabilities to OT, and also developing new capabilities which are useful to Bitcoin users and companies. One such forthcoming OT feature highly relevant to the goal of reducing Bitcoin thefts and losses is called the “Voting Pool.”&lt;/p&gt;
+
+&lt;p&gt;A voting pool is a way in which multiple Bitcoin websites can collaborate to accept customer deposits in a way that makes theft vastly more difficult. Members of a voting pool do not accept bitcoins directly - instead they give their customers deposit addresses which require a supermajority of the pool members to cooperate in order to spend (&lt;a href=&quot;http://bitcoin.stackexchange.com/questions/3718/what-are-multi-signature-transactions&quot;&gt;multisig&lt;/a&gt; addresses). After receiving a deposit, the member then issues the depositor a BTC-denominated receipt. When a customer decides to make a withdrawal, she returns this receipt back to the issuer, and the pool votes to process the appropriate blockchain transaction.&lt;/p&gt;
+
+&lt;p&gt;What about this arrangement makes forming a voting pool a security feature instead of unnecessary obfuscation? There are several advantages to the voting pool:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is no longer possible for an attacker to steal bitcoins by compromising a single server. Instead, the attacker would need to compromise almost all the servers in the pool.&lt;/li&gt;
+
+&lt;li&gt;This protection from attackers extends to insider threats. Even a malicious operator can not steal customer funds, since he can not forge customer receipts in the OT side, and the other pool members will not authorize a withdrawal without a valid receipt.&lt;/li&gt;
+
+&lt;li&gt;Since the members are operating from a shared pool of bitcoins, they have a very strong incentive to cross-audit each other. If they allow anyone to cheat it will affect every member of the pool For this reason, voting pools should include businesses which compete in the same space.&lt;/li&gt;
+
+&lt;li&gt;In addition to the protections from theft, customers will have far higher funds availability if they only do business with companies that use voting pools. If one server in a pool is down, the customer can still process a withdrawal through any other member of the pool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;effects_on_the_bitcoin_ecosystem&quot;&gt;Effects on the Bitcoin Ecosystem&lt;/h2&gt;
+
+&lt;p&gt;The introduction of voting pools to deposit-accepting Bitcoin businesses would virtually halt the occurrence of stolen funds. As the pools increased in size, the amount of internal auditing would increase, as well as the level of effort needed to compromise a service wallet. Once this level of protection became the norm, it would no longer be possible for scammers to start up a new site with the intention of collecting deposits and stealing them. Nobody would trust a site that did not join an established voting pool.&lt;/p&gt;
+
+&lt;p&gt;When voting pool functionality is ready for deployment, it would be enough if just three significant sites implemented it. Once these three sites started offering their customers cryptographic proof that their deposits were safe from theft, fully backed (not held in a fractional reserve), and highly available, competitive pressure would ensure that all other sites would need to join in order to avoid a “run on the bank.”&lt;/p&gt;
+
+&lt;p&gt;If one currency exchange offers voting pool protection, and their biggest competitor refuses, then it would be entirely fair for that exchange’s customers to ask, “What do you have to hide? Sites which were not being honest with their customers would not survive long in such an environment.&lt;/p&gt;
+
+&lt;p&gt;Although the best possible answer to the problem of third-party theft is to convince all users to handle their own funds themselves, such an outcome is not likely to arrive any time soon. If we must have an ecosystem containing companies who hold bitcoins on behalf of third parties, then we insist upon the best available technology to make this arrangement as secure for those third parties as possible. Right now, that technology is Open-Transactions.&lt;/p&gt;
+
+&lt;p&gt;by Justus Ranvier&lt;/p&gt;</description>
+                <link>http://open-transactions.github.io/voting%20pools/2014/01/05/voting-pools</link>
+                <guid>http://open-transactions.github.io/voting%20pools/2014/01/05/voting-pools</guid>
+                <pubDate>2014-01-05T00:00:00-02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Lex Cryptographia</title>
+                <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;the_past&quot;&gt;The Past&lt;/h2&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;http://mises.org/daily/2542#4&quot;&gt;eleventh and twelfth centuries&lt;/a&gt;, increases in agricultural production and urbanization led to a new rise of a new professional merchant class who traded within and among towns and kingdoms. Customary law by this time had grown localized, so the merchants needed a universal body of law in order for trade to function on inter-regional levels. This began with a recognition of common customs that already existed, and from there merchants began experimenting with their own contract law, where contracts themselves were the source of law. Because contracts require voluntary entry, objectivity and impartial recognition and enforcement of the law was expected by anyone entering. Merchants would only voluntarily take part in a legal system that treated them fairly. Over time, these voluntary and experimental contractual agreements grew into a universal body of law known as &lt;em&gt;lex mercatoria&lt;/em&gt; or the “Law Merchant.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lex mercatoria&lt;/em&gt; required no intervening rulers to dictate the law, and in fact its statelessness was the key feature that allowed it to flourish and benefit merchants who sought peaceful inter-regional trade. Indeed, merchants preferred their own court systems recognizing &lt;em&gt;lex mercatoria&lt;/em&gt; over royal courts. Royal courts would often refuse to see cases involving contracts made in foreign countries. They would refuse to recognize interest agreements on charges of usury. They would refuse to use accounting books as evidence, despite them being central to merchant cases. They were unable to handle technical cases. They were slow and bureaucratic. On the other hand, merchant courts recognized a universal law that could apply to everyone, so geography was not an issue. They recognized voluntary contracts given they held up to community standards. They understood what mattered for cases and could compete in niches that required technical knowledge. They favored expedience and informality so that merchants could get back to business. Instead of physical punishment, merchants could use social incentives such as ostracization. By the thirteenth century, &lt;em&gt;lex mercatoria&lt;/em&gt; was a body of law universally recognized by merchants and proved that commercial law can develop outside of the state apparatus and perhaps it should remain there.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;the_present&quot;&gt;The Present&lt;/h2&gt;
+
+&lt;p&gt;During the last 30 years, programmers around the world have constructed the foundation of an entirely new economy piece by piece. The popularization of email and the world wide web in the 1990s makes it possible for instant, frictionless communication between individuals located anywhere in the world without regard for national borders. Mobile technology has allowed this access to reach into the most distant and poorest parts of the world. Bitcoin has, for the first time, made instant, frictionless payments possible between individuals located anywhere in the world, without regard for national borders.&lt;/p&gt;
+
+&lt;p&gt;We now have all the necessary tools to build a new borderless economy where producers of digital deliverables and their customers can interact directly, without friction or prior restraint, or regard for physical location… almost. There’s still a missing piece that is drastically holding back the genesis of this economy.&lt;/p&gt;
+
+&lt;p&gt;We can make agreements online, and make payments when a deal is completed successfully, but when a deal doesn’t work out to the satisfaction of all parties, our options for resolving the conflict in a satisfactory manner are limited.&lt;/p&gt;
+
+&lt;p&gt;As anyone who has been paying attention is keenly aware, &lt;a href=&quot;http://www.fraudguides.com/internet-craigslist-scams.asp&quot;&gt;fraud&lt;/a&gt; and &lt;a href=&quot;https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/Help/general/TopQuestion4-outside&quot;&gt;theft&lt;/a&gt; are a &lt;a href=&quot;http://www.scambusters.org/ebayscams.html&quot;&gt;common&lt;/a&gt;occurence online, not just in &lt;a href=&quot;https://bitcointalk.org/index.php?topic=83794&quot;&gt;Bitcoin&lt;/a&gt;. The &lt;a href=&quot;http://blog.credit.com/2007/06/credit_card_ind/&quot;&gt;losses&lt;/a&gt; these scams create is obvious, but as a 19th century writer informed us, “There is only one difference between a bad economist and a good one: the bad economist confines himself to the &lt;em&gt;visible&lt;/em&gt; effect; the good economist takes into account both the effect that can be seen and those effects that must be &lt;em&gt;foreseen&lt;/em&gt;.”&lt;/p&gt;
+
+&lt;p&gt;What we don’t notice as we look around the the current state of the digital economy is the enormous number of potential transactions that &lt;em&gt;never happen at all&lt;/em&gt;, because the risk of an unsuccessful trade is so high that the parties who might complete a successful deal never even make the attempt.&lt;/p&gt;
+
+&lt;h2 id=&quot;the_future&quot;&gt;The Future&lt;/h2&gt;
+
+&lt;p&gt;In order for us to achieve the goal of a borderless, global, digital marketplace we must make it possible for any two (or more) people to trade with the assurance that their deal is likely to conclude successfully. Because our problem set includes people from anywhere in the world, we can’t rely on government-provided legal recourse systems because they are frequently incompatible, expensive, inaccessible, and/or otherwise non-existent.&lt;/p&gt;
+
+&lt;p&gt;Since this problem has not yet been solved, we must assume that the existing attempts to do so have been unsuccessful or incomplete. However, in order to design a solution we should look at what has already been tried.&lt;/p&gt;
+
+&lt;h1 id=&quot;background_information&quot;&gt;Background Information&lt;/h1&gt;
+
+&lt;h2 id=&quot;reputation_systems&quot;&gt;Reputation systems&lt;/h2&gt;
+
+&lt;p&gt;Reputation systems are used by services such as Ebay and LocalBitcoins to assist customers in avoid unscrupulous traders, and by giving honest traders an incentive to resolve problems to preserve their feedback rating.&lt;/p&gt;
+
+&lt;p&gt;Reputation systems are vulnerable to attacks by malicious traders such as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Sybil_attack&quot;&gt;Sybil attack&lt;/a&gt; where the attackers create numerous fake profiles to give them false positive ratings, or the &lt;a href=&quot;https://en.wikipedia.org/wiki/Long_con&quot;&gt;long con&lt;/a&gt;, where a trader builds up a good reputation in order to be trusted with increasing value until they reach a threshold wherein it is profitable for them to steal what they’ve been entrusted and abandon their accumulated reputation.&lt;/p&gt;
+
+&lt;h2 id=&quot;payment_escrow&quot;&gt;Payment escrow&lt;/h2&gt;
+
+&lt;p&gt;Payment escrow is another technique commonly used in online markets. It works by having a trusted third party accept the payment from the buyer and wait to release it to the seller until both parties report a successful transaction. Escrow provides the seller the necessary assurance of being paid so that he can safely release the product, and provides the buyer the assurance of not being required to pay if the product is not received.&lt;/p&gt;
+
+&lt;p&gt;Escrow systems are vulnerable to malicious agents colluding with one of the parties or, depending on the protocol involved,  outright stealing the payment.&lt;/p&gt;
+
+&lt;h2 id=&quot;surety_bonds&quot;&gt;Surety bonds&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Surety_bond&quot;&gt;Surety bonds&lt;/a&gt; are not typically seen in online markets. They are an ancient concept, with the earliest known examples dating back to Mesopotamian civilizations, and survive in the present day mostly in the blue-collar trades.&lt;/p&gt;
+
+&lt;p&gt;A surety bond is money that is placed in escrow as a form of collateral against failure to perform on a contract, or against damages that might be incurred.&lt;/p&gt;
+
+&lt;p&gt;For example, in some jurisdictions a plumber might be required to post a $250,000 bond in order to obtain a licence to work. The money is held by a government agency and is used to pay out restitution to customers in the event an error on the plumber‘s part causes significant damage beyond the amount he was paid for a job.&lt;/p&gt;
+
+&lt;p&gt;Surety bonds can be thought of a general solution to the problem of contract enforcement, of which payment escrows are a specialized and limited type. An escrow is a special type of surety bond offered by the buyer to the seller which also doubles as the payment. However as the previous example shows, surety bonds can be more general than that. They do not need to be limited to the amount of the payment, and can be offered by potentially all parties in the transaction.&lt;/p&gt;
+
+&lt;p&gt;They have the same failure case as payment escrows: the trusted party holding the bond could collude with one party or steal funds.&lt;/p&gt;
+
+&lt;h2 id=&quot;smart_contracts&quot;&gt;Smart Contracts&lt;/h2&gt;
+
+&lt;p&gt;Smart contracts are agreements between two or more entities where at least some of the terms are specified in, and acted out by, software.&lt;/p&gt;
+
+&lt;p&gt;A pure smart contract is entirely software based - with no terms that involve human interpretation and requiring no human action to complete.&lt;/p&gt;
+
+&lt;p&gt;A hybrid smart contract is a mixture of software and human-readable language. Some parts of the contract are acted out by software while other parts require human interaction to complete.&lt;/p&gt;
+
+&lt;h2 id=&quot;dispute_prevention_and_resolution_using_smart_contracts&quot;&gt;Dispute Prevention and Resolution using Smart Contracts&lt;/h2&gt;
+
+&lt;h3 id=&quot;intrinsically_cheatproof_contracts&quot;&gt;Intrinsically cheat-proof contracts&lt;/h3&gt;
+
+&lt;p&gt;The best way to resolve a dispute is for it to make it impossible to happen in the first place. Doing this means creating some kind of cryptographic protocol which is completely secure against cheating.&lt;/p&gt;
+
+&lt;p&gt;One example of this is &lt;a href=&quot;https://en.bitcoin.it/wiki/Atomic_cross-chain_trading&quot;&gt;atomic cross-blockchain trades&lt;/a&gt;. Two parties agree to exchange one cryptocurrency for another, and the transaction is done in such a way that neither side can execute their portion of the trade without releasing funds to the other party. The trade either happens in its entirety, or not at all, which means nobody can walk away empty-handed. The worse possible outcome is that no trade occurs at all and everybody keeps what they had.&lt;/p&gt;
+
+&lt;p&gt;Another example is &lt;a href=&quot;https://bitcointalk.org/index.php?topic=66521&quot;&gt;rapidly-adjusted micropayments&lt;/a&gt;. These work by creating a transaction where the customer sends a certain amount of money to the provider of a metered service, and the provider sends the exact same amount back to the customer, and the transaction is not valid until some point in the future.&lt;/p&gt;
+
+&lt;p&gt;Between the time when the transaction is created and the time it enters the blockchain, both sides sign continual updates to it - it’s adjusted to make the provider a net recipient of funds as they provide contine services. This protocol is immune to cheating because the customer can immediately cease to sign updated transactions if the provider stops delivering service, and the provider can immediately cut off service if the customer refuses to pay.&lt;/p&gt;
+
+&lt;h3 id=&quot;oracles&quot;&gt;Oracles&lt;/h3&gt;
+
+&lt;p&gt;Another way to make a dispute-proof smart contract is to use external trustworthy sources (&lt;a href=&quot;https://en.bitcoin.it/wiki/Contracts#Example_4:_Using_external_state&quot;&gt;oracles&lt;/a&gt;) to provide the necessary state such that the software making up the contract can automatically and unambiguously choose the correct course of action.&lt;/p&gt;
+
+&lt;h3 id=&quot;human_intervention&quot;&gt;Human Intervention&lt;/h3&gt;
+
+&lt;p&gt;The last category of dispute is the one most difficult to deal with. Most programmers would rather deal with the previous categories, because they are solvable entirely in software and thus are immune from the complexity and unpredictability of the human condition.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, however, not all contracts can be reduced to pure smart contract form. As long as we want to interact with each other as fellow human beings, we will create agreements which have failure modes that can not be resolved via software. In fact, these might even be the most common of all type of disputes.&lt;/p&gt;
+
+&lt;p&gt;Lex Cryptographia is a comprehensive plan to tackle this category of disputes in a low trust, borderless, and decentralized peer to peer manner. With this plan in place the digital economy will be able to achieve its full potential, freed from the uncertainty that arises when the potential exists for disputes in a transaction, but there exists no effective method of resolution or restitution.&lt;/p&gt;
+
+&lt;h1 id=&quot;the_solution&quot;&gt;The Solution&lt;/h1&gt;
+
+&lt;h2 id=&quot;contract_insurance&quot;&gt;Contract Insurance&lt;/h2&gt;
+
+&lt;p&gt;Suppose there exists a global, decentralized marketplace where anyone can list offers for any product or service, like a super-Craigslist or EBay. Instead of plain texts listings, however, buyers and sellers post smart contracts. The smart contracts encode all the relevant conditions and payment details, so the marketplace itself only serves to match buyers and sellers, while the smart contract platform handles everything else directly between the participants.&lt;/p&gt;
+
+&lt;p&gt;It is in this environment where Lex Cryptographia will operate. The smart contract platform it will operate on is &lt;a href=&quot;https://github.com/FellowTraveler/Open-Transactions/wiki&quot;&gt;Open Transactions&lt;/a&gt; (OT). The marketplace is a forthcoming feature of OT called the Bazaar. More on OT and why we chose this platform later.&lt;/p&gt;
+
+&lt;p&gt;Our proposal is to add a special type of contract to OT that we call an “insurance subcontract”. These are smart contracts defined in a particular way that allow participants in a contract to self-insure their future performance by posting a surety bond. The bond automatically returns to the person who posted it if the main contract is completed successfully. If another party in the main contract issues a dispute message, then control over the bond is handed over to a third party arbitration company for resolution.&lt;/p&gt;
+
+&lt;p&gt;This basic structure can be built upon to solve entire categories of dispute and trust problems, but it may not be apparently clear yet. Some examples are in order.&lt;/p&gt;
+
+&lt;p&gt;Imagine you have a need for bespoke artwork, perhaps to include on invitations for your upcoming wedding. Artwork is a digital deliverable, so in an ideal case you should be able to choose from artists located all over the globe to obtain the highest quality at the best price available.&lt;/p&gt;
+
+&lt;p&gt;As things stand now, however, a resident of Canada is not likely to hire an artist from Nigeria, even if that artist would be the best provider, and the artist is unlikely to accept a Canadian customer. There is a mutual trust problem that prevents both sides from entering into this deal:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When you as a customer hire an artist for a time-sensitive job, you are taking a risk that the job will be completed in a satisfactory manner by the deadline. If the artist misses the deadline then you can always just refuse to pay, but now you’re stuck trying to hire someone else to do the work as a rush job (higher price).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;The artist obviously needs to trust that the customer will pay as agreed after receiving the product.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using bitcoins as a payment method with escrow is a partial solution to this problem - it addresses the artist’s trust issue - but does nothing to help the customer’s risk.&lt;/p&gt;
+
+&lt;p&gt;This is where Lex Cryptographia comes in.&lt;/p&gt;
+
+&lt;p&gt;The customer and the artist meet up in the Bazaar and form a hybrid smart contract. The human-readable portion of the contract specifies what kind of art the customer wants, what format it should be delivered in, and when it will be finished.&lt;/p&gt;
+
+&lt;p&gt;The software portion of the contract specifies that the customer will pay the amount the artist specified (for this example, $50) upon mutually verified completion.&lt;/p&gt;
+
+&lt;p&gt;In addition both people want their counterparty to provide insurance, so both sides also create insurance subcontracts.&lt;/p&gt;
+
+&lt;p&gt;The customer’s insurance contract is valued at $50 (the amount of the sale). If the customer fails to pay the invoice when the terms for payment have been met, the artist can invoke the dispute mechanism and ask the customer’s arbitration company to release the bond.&lt;/p&gt;
+
+&lt;p&gt;Calculating the value of the artist’s insurance contract is less straightforward. The customer knows she will lose a certain amount of money in terms of hiring a replacement artist at a higher cost if this artist fails to deliver a suitable product by the deadline. She and the artist will negotiate an bond amount that reflects this risk, which could be higher or lower than the sale price. Suppose they arrive at a value of $100.&lt;/p&gt;
+
+&lt;p&gt;Now both sides of this deal are protected. If anything goes wrong, both people have recourse to third-party arbitration where the funds needed to pay damages have already been provably sequestered in the insurance contracts at the beginning of the deal.&lt;/p&gt;
+
+&lt;p&gt;In the previous example, it’s not obvious why they payer would use a bond instead of just placing the payment itself in escrow. The reason for separating the bond from the payment is that the insurance structure can even handle cases where there is no currency payment at all.&lt;/p&gt;
+
+&lt;p&gt;Suppose a carpenter and a dentist are going to barter services by building a deck in exchange for filling a cavity. Even though no currency is changing hands, they might decide to protect themselves by asking the other party to insure their performance in case of some kind of mishap. Because this framework is designed to help people enter contracts across jurisdictional boundaries the bond encapsulates all forms of redress which might be required, of which non-payment is only one.&lt;/p&gt;
+
+&lt;p&gt;Besides removing barriers to trade based on lack of trust, certainty, or the ability to collect damages, Lex Cryptographia also greatly diminishes the need for identity and reputation (two things which are problematic to establish and check anyway). Our example Canadian customer doesn’t need to know who the artist is, or what kind of reputation he has. Both people might even be completely anonymous. All they need to know is that they are both protected financially in the event that something goes wrong via a process that is completely independent of spatial location or legal jurisdiction, and which can handle disputes which can be automatically resolved via software as well as disputes which can only be resolved by human intervention.&lt;/p&gt;
+
+&lt;p&gt;Every trade that is never even attempted because of uncertainties and mutual incompatibilities between government law systems is a hidden economic loss that affects people all over the world. Giving them the tools to bridge that gap will unlock this potential for the benefit of everyone involved.&lt;/p&gt;
+
+&lt;h2 id=&quot;arbitration&quot;&gt;Arbitration&lt;/h2&gt;
+
+&lt;p&gt;In order for the insurance contracts to function, participants need access to a robust market for arbitration providers. Since the only requirement needed to arbitrate is a willingness to listen to two sides of a disagreement and make a decision, the same software that we’ll use to create smart contracts will also allow users to form arbitration companies. To encourage as many entrants into the market as possible it should be as easy to start one of the companies as it is to open a Facebook account.&lt;/p&gt;
+
+&lt;p&gt;One or more individuals will use the incorporation features of OT to form their company. They’ll select the number of members, the amount of consensus needed to make a decision, what types of legal theories they will advertise (Common Law, Sharia, etc), the level of adjudication they will provide, and their rates. All of this information will be broadcast into the same distributed marketplace where other companies and individuals advertise their services, and will be structured so that search engines can quickly locate suitable companies for any given smart contract.&lt;/p&gt;
+
+&lt;p&gt;An arbitration company can offer casual services in which they make snap decisions after receiving an email from both sides, or they could offer a lengthy and detailed trial process, or anything in between. The effect of this is to create a market for à la carte law where the customers choose exactly the amount of protection that meets their needs and budget.&lt;/p&gt;
+
+&lt;p&gt;One thing that is different about these arbitration companies as compared to other businesses in the ecosystem is that reputation is extremely important for them. Everybody else can use bonds in lieu of relying on reputation in order to create assurance for their customers, but arbitration companies are the linchpin this system relies on in order to function. Fortunately, it’s easier to measure the reliability of an arbitration company in objective manner, so reputation systems are both more accurate and more useful in their case.&lt;/p&gt;
+
+&lt;h3 id=&quot;arbitration_quality_control&quot;&gt;Arbitration Quality Control&lt;/h3&gt;
+
+&lt;p&gt;Insurance contracts will be structured in such a way that arbitration companies are limited in what they can do - if and only if someone issues a dispute will they be involved, and then they can only divide up the bond between the parties. They won’t be able to keep or divert funds. This means there are only two failure cases: they fail to render a verdict when activated, or they collude with the insured party to render a bad judgement.&lt;/p&gt;
+
+&lt;p&gt;A history of exhibiting any of these failure cases can be easily detected by reputation services. Such services could collect highly-relevant data and score arbitration companies via several metrics.&lt;/p&gt;
+
+&lt;p&gt;Responsiveness can be scored as the average and median amount of time they take to render a judgement as compared to what they advertise.&lt;/p&gt;
+
+&lt;p&gt;As the amount of judgements increases, it will provide a data set which can be used to detect bias. Does an arbitration company rule in favor of its own client more frequently than the industry standard? If so, this is easily detected in addition to other biases.&lt;/p&gt;
+
+&lt;p&gt;When arbitration is activated, the arbiter will have the authority to act unilaterally but can optionally request the assent of both parties by having them digitally sign the judgement. This will provide another data set which can be used to judge quality: the best possible outcome would be for an arbitration company to negotiate a settlement that all parties agree to sign. Those outcomes should give a substantial boost to the company’s reputation. Whether it’s better for one party to sign off or for none of them to sign off (in other words, for all parties to be equally dissatisfied) is a question that reputation companies might need to work out empirically.&lt;/p&gt;
+
+&lt;p&gt;The special nature of arbitration companies allow for far more objective measurement of their quality, so reputation tracking should be quite capable of separating the good companies from the bad ones.&lt;/p&gt;
+
+&lt;h1 id=&quot;open_transactions&quot;&gt;Open Transactions&lt;/h1&gt;
+
+&lt;p&gt;We’ve chosen to implement the Lex Cryptographia project in Open Transactions as opposed to being a stand alone project or directly in Bitcoin. The reason is that at the present time OT is the most feature complete smart contract platform available.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin does have opcodes which can be used to process smart contracts in the blockchain, however most of them are currently disabled. Even if they were all enabled, however, the Bitcoin scripting language is stateless and Turing-incomplete, meaning that it is quite restricted in what it can accomplish.&lt;/p&gt;
+
+&lt;p&gt;OT uses &lt;a href=&quot;http://www.chaiscript.com/&quot;&gt;ChaiScript&lt;/a&gt; for smart contracts. It is a full featured programming language which means in theory it is possible to represent any smart contract which is computable (although this flexibility also means special precautions are necessary to prevent execution of pathological scripts). This is most likely overkill for the kinds of smart contracts that most users will want to create, but in order to create a working ecosystem it’s better to have more functionality available than required than not enough.&lt;/p&gt;
+
+&lt;p&gt;Our long term stretch goal is to create smart contracts using a restricted subset of OT’s capabilities representing what functionality could plausibly be added to Bitcoin’s scripting language. That opens up the possibility for an upgrade path in which OT-specific transaction servers are no longer required. In that event, OT could become a front end library for creating smart contracts that uses the Bitcoin blockchain for processing. This is the “best of both worlds” outcome in terms of both convenience and security.&lt;/p&gt;
+
+&lt;h1 id=&quot;the_other_6_billion_people&quot;&gt;The other 6 billion people&lt;/h1&gt;
+
+&lt;p&gt;One of the primary goals of Lex Cryptographia is to allow people &lt;a href=&quot;http://www.paymentssource.com/news/a-q-and-a-with-serial-bitcoin-entrepreneur-andreas-antonopoulos-3014626-1.html&quot;&gt;outside the developed world&lt;/a&gt; to fully participate in the digital economy. By creating a robust contract insurance system that diminishes or eliminates trust issues and the need for reputation, it allows producers in these regions to compete on a more level playing field with producers in more developed areas.&lt;/p&gt;
+
+&lt;p&gt;They are still at a disadvantage, however, in that producers in the developed world will on average have more savings which they can use to post as bonds. To insure one’s contracts in order to land income-generating deals, one must first have saved income to post as the bond. While this might at first glance appear to be an insurmountable barrier, there are several ways it can be overcome:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Price differentiation&lt;/strong&gt;: Producers with no savings can still advertise in the Bazaar, but will need to discount their prices to overcome their lack of insurability. They’ll be able to sell to the most price-sensitive customers who are willing to take on additional risk in exchange for a lower cost.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Traditional insurance&lt;/strong&gt;: Standard form insurance contracts will not be sensitive to the source of the bonds. All previous examples have assumed that the insurees are self-insuring by posting their own bond, however it’s equally possible that the arbitration company posts the bonds. In this case they would perform actuarial calculations and collect premiums like a traditional insurance company.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Microlending&lt;/strong&gt;: Similar to the previous method, charities could form for the explicit purpose of helping producers of digital deliverables get a foothold in the marketplace by insuring their first few contracts, until they’ve earned enough to self-insure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Regardless of the method they use to get started, producers will benefit greatly by retaining profits and using them to insure increasingly larger deals as their experience and success accumulates. Older readers may remember a time before the central banks of the world declared war on savers and recognize this process as “capital formation”.&lt;/p&gt;
+
+&lt;p&gt;For those who can not remember that era, think of it as starting out as a &lt;a href=&quot;http://bitcoinism.blogspot.com/2013/11/censorship-resistant-business-models.html#game&quot;&gt;level 1 entrepreneur&lt;/a&gt; and level grinding until you can take on the more powerful mobs.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Lex Cryptographia is a plan for addressing trust and recourse problems in online commerce in a way that does not depend on unreliable, inaccessible, non-existent, or contradictory government law systems. By combining the concepts of insurance, surety, smart contracts, and third party arbitration where necessary, it is possible to greatly reduce the risk of non-performance.&lt;/p&gt;
+
+&lt;p&gt;Although this is applicable to many types of commerce, we’re going to focus on software tools to help two specific groups:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Producers of digital deliverables who live in the developed world. Smart contract software tools which incorporate Lex Cryptographia can help these people become location-independent while developing a global customer base.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Potential producers of digital deliverables who live in the developing countries and who otherwise have little income opportunity. The ability to insure contracts will help to level the playing field for them in terms of gaining access to international markets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With this system in place, the digital economy will finally be in a position to achieve its full potential, by providing a method for contract enforcement that is as borderless and decentralized as Bitcoin itself.&lt;/p&gt;
+
+&lt;p&gt;by Justus Ranvier&lt;/p&gt;</description>
+                <link>http://open-transactions.github.io/smart%20contracts/2014/01/05/lex-cryptographia</link>
+                <guid>http://open-transactions.github.io/smart%20contracts/2014/01/05/lex-cryptographia</guid>
+                <pubDate>2014-01-05T00:00:00-02:00</pubDate>
         </item>
 
 

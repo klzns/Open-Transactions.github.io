@@ -9,4 +9,5 @@ http://open-transactions.github.io/index.html
 http://open-transactions.github.io/sitemap.txt
 http://open-transactions.github.io/index.html
 
-http://open-transactions.github.io/hi/2013/12/18/hello-world
+http://open-transactions.github.io/voting%20pools/2014/01/05/voting-pools
+http://open-transactions.github.io/smart%20contracts/2014/01/05/lex-cryptographia
