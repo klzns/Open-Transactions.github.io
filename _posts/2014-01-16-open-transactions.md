@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Open-Transactions"
+tagline: "Introduction"
 description: ""
 category: "introduction"
 tags: ["Bernhard Müller Hug"]
